@@ -22,6 +22,7 @@
 //     alert(i +': ' + letter[i])
 //  }
 // i++ = i+1
+
 //   let i=0
 //  while(i <3){
 //  console.log( i+':'+mynmber[i]);

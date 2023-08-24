@@ -1,9 +1,6 @@
-// let  mynumber = [ 4 ,5 , 7 ,8 , 9, 1]
-// console.log(mynumber)
-//   for( let i = 0; i < mynumber.lenght; i++) {
-//       console.log("gia tri phan tu thu", i, "la:",mynumber[i])
-
-//   }
+let mynumber=[4,5,7,8,9,1]
+console.log(mynumber)
+for( let x=0;x<mynumber.length;x++){console.log("Giá trị của phần tử thứ",x, "là:", mynumber[x])}
 // //  mynumber[1] = 6;
 //  console.log(mynumber)
 // thay vi tri cua so
@@ -67,5 +64,3 @@
 // for( let i = 0; i < giotraicay.lenght; i++) {
 //     console.log("gio trai cay :"+ giotraicay[i][0] + giotraicay[i][1])
 // }
-
-
