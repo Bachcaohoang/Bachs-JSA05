@@ -1,12 +1,13 @@
-let mynumber=[4,5,7,8,9,1]
-console.log(mynumber)
-for( let x=0;x<mynumber.length;x++){console.log("Giá trị của phần tử thứ",x, "là:", mynumber[x])}
-// //  mynumber[1] = 6;
-//  console.log(mynumber)
-// thay vi tri cua so
-
-// mynumber.splice(2,1, 7,8);
+ let mynumber=[4,5,7,8,9,1]
 // console.log(mynumber)
+// for( let x=0;x<mynumber.length;x++){console.log("Giá trị của phần tử thứ",x, "là:", mynumber[x])}
+  
+// mynumber[3] = 6;
+//   console.log(mynumber)
+// // thay vi tri cua so
+
+//  mynumber.splice(2,1, 7,8);
+//  console.log(mynumber)
 
 // console.log(mynumber.length);
 // lấy độ dài cái mảng
