@@ -23,7 +23,7 @@ button.addEventListener('click', function () {
             document.body.appendChild(greeting);
         }
     })
-})
+})  
 
 // document.addEventListener('DOMContentLoaded', function () {
 //     var username = document.getElementById('username');
