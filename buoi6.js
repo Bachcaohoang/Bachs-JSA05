@@ -30,7 +30,7 @@ printB(); */
 /* 
 note :API   
  GET: trả về một resoure hoặc một danh sách resourse
- POST: hộ trợ mội rousource
+ POST: hộ trợ mội resource
  put : hộ trợ cập nhập thông tin cho resourse
  delete: xóa resource
  */
