@@ -11,9 +11,22 @@
 <body>
     <div class="thanhtiemkiem">
         <input id="search-input" type="text" placeholder="tìm kiếm sản phẩm">
-        <button id="search" ><i class="fa-solid fa-magnifying-glass"><a href=""></a></i> </button>
+        <button id="search" onclick="savedata()" ><i class="fa-solid fa-magnifying-glass"><a href=""></a></i> </button>
+        <button id="delete">Xóa</button>
     </div>
     <div id="product"></div>
-    <script src="ktra.js"></script>
+
+    <script>
+        var input= document.getElementById("search-input").value
+// var button= document.getElementById("search")("click", savedata);
+console.log('input',input);
+function savedata () {
+ console.log(input);
+ localStorage.setItem(
+ 'bach',input
+)
+}
+
+    </script>
 </body>
 </html>
